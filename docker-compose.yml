@@ -1,0 +1,6 @@
+﻿services:
+  pizzastoreapis:
+    image: pizzastoreapis
+    build:
+      context: .
+      dockerfile: Dockerfile
